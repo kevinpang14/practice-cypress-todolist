@@ -51,8 +51,13 @@ const TodoInput = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
           required
+          cy-data="input-form"
         />
-        <button className="btn btn-primary" type="submit">
+        <button
+          className="btn btn-primary"
+          type="submit"
+          cy-data="input-button"
+        >
           {updatingTrackID ? "Update" : "Add"}
         </button>
       </form>

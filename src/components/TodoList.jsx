@@ -36,7 +36,7 @@ const TodoList = () => {
   }
 
   return (
-    <ul className="list-group">
+    <ul className="list-group" cy-data="todo-list">
       {todos.map((todo) => (
         <li
           key={todo.id}
@@ -56,12 +56,14 @@ const TodoList = () => {
             <button
               className="btn btn-danger btn-sm mx-1"
               onClick={() => dispatch(deleteTodo(todo.id))}
+              cy-data="delete-button"
             >
               Delete
             </button>
             <button
               className="btn btn-info btn-sm mx-1"
               onClick={() => dispatch(toggleTodo(todo.id, todo.completed))}
+              cy-data="toggle-button"
             >
               {todo.completed ? "Undo" : "Done"}
             </button>
@@ -69,6 +71,7 @@ const TodoList = () => {
               className="btn btn-warning btn-sm mx-1"
               //set the update track id to todo.id
               onClick={() => dispatch(toggleUpdate(todo.id))}
+              cy-data="update-button"
             >
               Update
             </button>

@@ -19,7 +19,11 @@ const App = () => {
   return (
     <div className="container mt-5">
       {/* toggle language */}
-      <button className="btn btn-secondary mb-4" onClick={handleToggleLang}>
+      <button
+        className="btn btn-secondary mb-4"
+        onClick={handleToggleLang}
+        cy-data="toggle-lang"
+      >
         {lang === "en" ? "EN/ID" : "ID/EN"}
       </button>
 
@@ -27,7 +31,10 @@ const App = () => {
         <div className="col-md-6">
           <div className="card shadow">
             <div className="card-body">
-              <h1 className="card-title text-center mb-4">
+              <h1
+                className="card-title text-center mb-4"
+                cy-data="todo-list-title"
+              >
                 {/* changed language */}
                 {lang === "en" ? "To-Do List" : "Daftar Tugas"}
               </h1>

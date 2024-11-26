@@ -6,14 +6,9 @@
       "completed": true
     },
     {
-      "id": "3",
-      "text": "Learn Thunkk and Persist",
-      "completed": true
-    },
-    {
       "text": "Learn Fishing",
       "id": "a338b94c-f182-4a3f-ae9a-14684d3cdb48",
-      "completed": false
+      "completed": true
     },
     {
       "id": "0bdf5d86-51a8-405d-88ba-b70922cea51c",
@@ -23,6 +18,21 @@
     {
       "id": "7af1718b-c2a6-4a29-8238-cc5344c395c0",
       "text": "Learn Hiking and Mountaineering",
+      "completed": false
+    },
+    {
+      "id": "8b37afc5-c411-4175-8683-426536e8c40d",
+      "text": "Meeting",
+      "completed": false
+    },
+    {
+      "id": "c6104148-4119-41a0-ab45-e850f53e4318",
+      "text": "Ice cream",
+      "completed": true
+    },
+    {
+      "id": "131de2b2-6d40-42d5-a07d-4dd52e726256",
+      "text": "Hiking to mountain at 6am",
       "completed": false
     }
   ],
